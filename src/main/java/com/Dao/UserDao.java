@@ -13,7 +13,7 @@ public class UserDao
 	  try
 	  {
 		  Class.forName("com.mysql.cj.jdbc.Driver");
-		  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","@zainabbai1997");
+		  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","@");
 	  }
 	  catch(Exception e)
 	  {
